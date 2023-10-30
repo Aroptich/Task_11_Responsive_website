@@ -1,1 +1,163 @@
 @import url("reset.css");
+@font-face {
+font-family: Lato;
+src: url("/static/fonts/Lato-Regular.ttf");
+}
+
+body {
+max-width: 1600px;
+max-height: 2925px;
+background-color: #FFFF;
+font-family: "Lato";
+}
+
+header {
+background-color: #000;}
+
+.container {
+max-width: 1160px;
+margin: 0 auto;
+padding: 19px 0;
+}
+
+.header {
+display: flex;
+align-items: center;
+}
+
+.header-logo1 {
+width:44px;
+height: 38px;
+}
+
+.nav-main {
+display: flex;
+gap: 859px;
+padding:0 0 0 41px
+}
+
+main {
+text-align: center;
+height: 764px;
+background-color: #F1E4E6;
+}
+
+.main-section {
+display: flex;
+margin: 0 0 65px 0;
+}
+
+.container {
+display: flex;
+align-items: center;
+gap: 16px;
+}
+
+.container-logo {
+width:12px;
+height: 92px;
+}
+.title {
+font-size: 32px;
+}
+
+.offer-wrap {
+display: grid;
+grid-template-columns: repeat(3, 360px);
+gap: 30px;
+
+}
+
+.offer {
+position: relative;
+background:
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("/static/images/offer/Layer 43.png"),  50%/cover no-repeat;
+height: 260px;
+}
+
+.offer:nth-child(2) {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+ url("/static/images/offer/Rectangle 30.png")
+}
+
+.offer:nth-child(3) {
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("/static/images/offer/Rectangle 30 (1).png")
+}
+
+.offer:nth-child(4) {
+width: 1140px;
+height: 180px;
+grid-column: 1/4;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("/static/images/offer/Rectangle 20.png")
+}
+
+.info {
+position: absolute;
+text-align: center;
+font-size: 16px;
+color: #FFF;
+top: 40%;
+left: 40%;
+}
+
+.title-products {
+margin: 96px 0 6px 0;
+font-size: 30px;
+text-align: center;
+}
+
+.text-products {
+font-size: 14px;
+color:#9F9F9F;
+margin-bottom: 48px;
+text-align: center;
+}
+
+.products-wrap {
+display: grid;
+grid-template-columns: repeat(3, 360px);
+gap: 30px;
+}
+
+.products {
+background-color:  #F8F8F8;
+width: 360px;
+height: 587px;
+}
+
+.image-card {
+padding-bottom: 25px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.title-card {
+font-size: 13px;
+padding-bottom: 16px;
+padding-left: 16px;
+}
+
+.discriptions {
+color:#9F9F9F;
+font-size: 14px;
+padding-bottom: 16px;
+padding-left: 16px;
+}
+
+.price {
+font-size: 16px;
+padding-left: 16px;
+color: #F16D7F;
+}
+
+a {
+text-align:center;
+font-size: 16px;
+color: #F26376;
+border: 1px solid #F26376;
+padding: 15px 39px 14px;
+}
