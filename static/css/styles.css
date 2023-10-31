@@ -15,9 +15,9 @@ header {
 background-color: #000;}
 
 .container {
+align-items: center;
 max-width: 1160px;
 margin: 0 auto;
-padding: 19px 0;
 }
 
 .header {
@@ -37,7 +37,6 @@ padding:0 0 0 41px
 }
 
 main {
-text-align: center;
 height: 764px;
 background-color: #F1E4E6;
 }
@@ -49,7 +48,7 @@ margin: 0 0 65px 0;
 
 .container {
 display: flex;
-align-items: center;
+justify-content: center;
 gap: 16px;
 }
 
@@ -57,6 +56,7 @@ gap: 16px;
 width:12px;
 height: 92px;
 }
+
 .title {
 font-size: 32px;
 }
@@ -129,23 +129,22 @@ height: 587px;
 }
 
 .image-card {
-padding-bottom: 25px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .title-card {
-font-size: 13px;
-padding-bottom: 16px;
+padding-top: 25px;
 padding-left: 16px;
+font-size: 13px;
 }
 
 .discriptions {
+width: 300px;
 color:#9F9F9F;
 font-size: 14px;
-padding-bottom: 16px;
-padding-left: 16px;
+padding: 16px;
 }
 
 .price {
@@ -154,10 +153,9 @@ padding-left: 16px;
 color: #F16D7F;
 }
 
-a {
-text-align:center;
-font-size: 16px;
-color: #F26376;
-border: 1px solid #F26376;
+button {
+color: #FF6A6A;
+margin-top: 48px;
 padding: 15px 39px 14px;
+border: 1px solid #FF6A6A;
 }
